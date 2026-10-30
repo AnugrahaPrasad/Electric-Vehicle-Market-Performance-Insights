@@ -42,7 +42,7 @@ Use a white or light-gray canvas, charcoal text, and teal accents. Keep units co
 - Markdown documentation
 
 ## Author
-Advait Pratap Singh
+Anugraha Prasad
 
 ## Limitations
 This repository contains a Tableau-ready dataset and project documentation, not a packaged Tableau workbook (`.twbx`). The 80 sample records cover 2021–2025 and are synthetic. Build and validate the workbook after replacing sample values with verified data.
