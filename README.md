@@ -20,21 +20,21 @@ A portfolio project exploring electric-vehicle (EV) market patterns through a Ta
 - `LICENSE` — MIT License.
 
 ## Recommended dashboards
-1. **Executive Overview:** sample sales, average range, average rating, sales by year, and segment mix.
+1. **Executive Overview:** total sample sales, average range, average rating, sales by year, and segment mix.
 2. **Manufacturer Performance:** sales and market-share comparisons by manufacturer.
 3. **Battery & Technology:** battery chemistry, capacity, range, and charging time.
 4. **Geography & Customer Insights:** manufacturing country, segment, and customer rating.
 
 ## Use in Tableau
-1. Open Tableau Desktop.
-2. Select **Connect → Text File** and open `data/ev_market_data.csv`.
+1. Download or clone this repository.
+2. In Tableau Desktop, select **Connect → Text File** and open `data/ev_market_data.csv`.
 3. Confirm data types using `data/data_dictionary.csv`.
-4. Build views described in `tableau/dashboard_plan.md`.
-5. Use formulas in `tableau/calculated_fields.md` as starting points.
+4. Build the views described in `tableau/dashboard_plan.md`.
+5. Use the formulas in `tableau/calculated_fields.md` as a starting point.
 6. Replace the synthetic dataset with a trusted, documented source before making factual market claims.
 
 ## Suggested visual style
-Use a white or light-gray canvas, charcoal text, and teal accents. Keep units consistent, label charts directly where practical, and show the data period.
+Use a white or light-gray canvas, dark charcoal text, and teal accents. Keep KPI cards restrained, use consistent units, label charts directly where practical, and place filters in a compact side panel.
 
 ## Tools
 - Tableau Desktop / Tableau Public
@@ -45,4 +45,4 @@ Use a white or light-gray canvas, charcoal text, and teal accents. Keep units co
 Anugraha Prasad
 
 ## Limitations
-This repository contains a Tableau-ready dataset and project documentation, not a packaged Tableau workbook (`.twbx`). The 80 sample records cover 2021–2025 and are synthetic. Build and validate the workbook after replacing sample values with verified data.
+This repository currently contains a Tableau-ready dataset and project documentation, not a packaged Tableau workbook (`.twbx`). The sample values are synthetic. Add a workbook after building and validating the dashboards in Tableau.
